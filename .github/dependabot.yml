@@ -22,3 +22,9 @@ updates:
   open-pull-requests-limit: 1
   labels:
     - run-ci
+- package-ecosystem: "bundler"
+  directory: "/"
+  schedule:
+    interval: "daily"
+    time: "14:00"
+    timezone: "Europe/Berlin"
